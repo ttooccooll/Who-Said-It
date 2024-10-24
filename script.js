@@ -40,7 +40,7 @@ const quotes = [
         image: "https://media.defense.gov/2021/Mar/22/2002605823/1280/1280/0/681220-O-ZZ999-001.JPG"
     },
     {
-        quote: `"It is not the nation which generate the government; that is an antiquated naturalistic concept which afforded a basis for nineteenth-century publicity in favor of national governments. Rather is it the government which creates the nation, conferring volition and therefore real life on a people made aware of their moral unity."`,
+        quote: `"It is not the nation which generates the government; that is an antiquated naturalistic concept which afforded a basis for nineteenth-century publicity in favor of national governments. Rather is it the government which creates the nation, conferring volition and therefore real life on a people made aware of their moral unity."`,
         author: "Benito Mussolini",
         image: "https://cdn.britannica.com/47/129647-050-9C3CFF1B.jpg"
     }
