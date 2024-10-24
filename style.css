@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c65af;
+    color: #fff;
+    width: 60%;
+    margin-left: 20%;
+}
+
+h2 {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #af4c4c;
+    color: #fff;
+    text-align: center;
+}
+
+a {
+    color:#4c65af;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #853939;
+    text-decoration: none;
+}
+
+#quote-container {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 60%;
+    margin-left: 20%;
+    border-radius: 5px;
+    background-color: #af4c4c;
+    color: #fff;
+}
+
+#authors-container {
+    margin-bottom: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4c65af;
+    color: #fff;
+    cursor: pointer;
+}
+
+#submit-btn {
+    background-color: #af4c4c;
+    align-self: center;
+}
+
+#submit-btn:hover {
+    background-color: #cc5f5f;
+}
+
+button:hover {
+    background-color: #52a7e5;
+}
+
+#result-container {
+    margin-bottom: 20px;
+}
+
+#final-result-container {
+    display: none;
+}
+
+#yep {
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+#nope {
+    width: 60%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+@media (max-width: 968px) {
+    #yep, #nope, #quote-container, #authors-container, h1 {
+        width: 90%;
+        margin-left: 5%;
+    }
+}
