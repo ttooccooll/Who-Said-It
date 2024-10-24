@@ -228,6 +228,7 @@ function displayFinalResult() {
     document.getElementById("submit-btn").style.display = "none";
     document.getElementById("yep").style.display = "none";
     document.getElementById("nope").style.display = "block";
+    document.getElementById("orange").style.display = "block";
 }
 
 function getAuthorImage(author) {

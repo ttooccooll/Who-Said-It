@@ -94,6 +94,38 @@ button:hover {
     text-align: left;
 }
 
+#orange {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#space {
+    margin: 10px;
+    background-color: darkorange;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#oranges {
+    color: black;
+    background-color: orange;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#oranges:hover {
+    background-color: rgb(255, 128, 0);
+}
+
+a.oranges {
+    margin: 30px;
+}
+
 @media (max-width: 968px) {
     #yep, #nope, #quote-container, #authors-container, h1 {
         width: 90%;
